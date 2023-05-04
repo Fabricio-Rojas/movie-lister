@@ -10,4 +10,96 @@ body {
     background-color: #1a1c24;
 }
 
+/* Header */
+header {
+    background-color: #2b2d35;
+    height: 60px;
+}
+
+header section {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+header div {
+    color: #fff;
+    display: flex;
+    float: left;
+}
+
+header div h2 {
+    line-height: 60px;
+    margin: auto 20px;
+    font-size: 30px;
+}
+
+header div i {
+    color: #f98a06;
+    margin: auto;
+    font-size: 30px;
+}
+
+header ul {
+    display: flex;
+    float: left;
+}
+
+header ul li a {
+    color: #fff;
+    line-height: 60px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
 /* Main */
+.search-bars {
+    margin: 60px auto 30px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 6fr 2fr 1fr;
+    gap: 15px;
+}
+
+.search-bars i {
+    position: absolute;
+    font-size: 20px;
+    line-height: 40px;
+    margin: auto 10px;
+    color: #fff;
+}
+
+.search-bars input {
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0px 10px 0px 40px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.search-bars button {
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #f6f6f6;
+    border-radius: 3px;
+    background-color: #f98a06;
+}
+
+.movies-section h3 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.movies-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 5px 5px; 
+}

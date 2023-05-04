@@ -8,12 +8,45 @@
         <meta name="keywords" content="html, css, web, web development, seo">
         <title>Movie Lister</title>
         <link rel="shortcut icon" href="./assets/image/main white finished.png?v=2" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <link rel="stylesheet" href="./assets/style/index.css" media="all">
         <script src="./assets/script/index.js" defer></script>
     </head>
     <body>
-        <main>
-            
+        <header>
+            <section class="container">
+                <div>
+                    <i class="fa-solid fa-ticket"></i>
+                    <h2>Movie Master</h2>
+                </div>
+                <ul>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Theatres</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">My Account</a></li>
+                </ul>
+            </section>
+        </header>
+        <main class="container">
+            <div class="search-bars">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="movies" id="movies">
+                </div>
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" name="cities" id="cities">
+                </div>
+                <div>
+                    <button>SEARCH</button>
+                </div>
+            </div>
+            <div class="movies-section">
+                <h3>Now Playing</h3>
+                <section class="movies-grid">
+
+                </section>
+            </div>
         </main>
     </body>
 </html>
