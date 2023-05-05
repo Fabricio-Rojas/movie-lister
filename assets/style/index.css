@@ -52,7 +52,7 @@ header ul li a {
     font-size: 18px;
 }
 
-/* Main */
+/* Search Bars */
 .search-bars {
     margin: 60px auto 30px;
     display: grid;
@@ -91,6 +91,43 @@ header ul li a {
     background-color: #f98a06;
 }
 
+.movies-results {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.movies-results a {
+    line-height: 40px;
+    display: block;
+    padding: 0px 10px;
+}
+
+.movies-results a:hover {
+    background-color: #f98a06;
+    color: #fff;
+}
+
+.cities-results {
+    position: absolute;
+    background-color: #fff;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.cities-results a {
+    line-height: 40px;
+    display: block;
+    padding: 0px 10px;
+}
+
+.cities-results a:hover {
+    background-color: #f98a06;
+    color: #fff;
+}
+
+/* Movies Section */
 .movies-section h3 {
     font-size: 20px;
     color: #fff;
@@ -101,5 +138,11 @@ header ul li a {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
-    gap: 5px 5px; 
+    gap: 0px 10px;
+}
+
+.poster {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 20px;
 }
